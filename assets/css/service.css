@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+:root{
+  --lg-font: 'Kaisei Tokumin', serif;
+  --sm-font: 'Poppins', sans-serif;
+  --primary-green: #2B8257;
+  --bg-lite: #F0F8F3;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text--black--700: #504e70;
+}
+
+body{
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: var(--sm-font);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+/* .bg-lite{
+  background-color: var(--bg-lite);
+} */
+h2{
+    font-size: 30px;
+    color: var(--primary-green);
+    font-weight: 500;
+    padding-bottom: 2rem;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+/* .btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px  35px;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--primary-green);
+    transition: all 0.3s ease;
+} */
+.btn:hover{
+    transform: scale(1.05);
+}
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.social-icon{
+    margin-left: 30%;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+.social-icon a{
+    color: var(--skin-color);
+}
+.social-icon a i{
+    padding-left: 15px;
+}
+.social-icon a:hover{
+    color: #302e4d;
+}
+.justify-content-center{
+  justify-content: center !important;
+}
+.align-self-center{
+  align-self: center !important;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    transition: 0.5s;
+    /* padding: 40px 100px; */
+    z-index: 100000;
+}
+header.page-header .home-page-logo img {
+  height: 40px;
+}
+.cont_pad {
+    padding: 80px 0 50px 0;
+}
+.service-title-info {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    /* position: relative; */
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+
+/* ======================================= Landing page ==================================== */
+.cont-pad {
+  padding: 80px 0 50px 0;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+:root{
+  --lg-font: 'Kaisei Tokumin', serif;
+  --sm-font: 'Poppins', sans-serif;
+  --primary-green: #2B8257;
+  --bg-lite: #F0F8F3;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text--black--700: #504e70;
+}
+
+body{
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: var(--sm-font);
+}
+
+*{
+  background-color: var(--bg-lite);
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.bg-lite{
+  background-color: var(--bg-lite);
+}
+h2{
+    font-size: 30px;
+    color: var(--primary-green);
+    font-weight: 500;
+    padding-bottom: 2rem;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.home-doptor-service{
+    cursor: pointer;
+}
+.scrollDoptorLayers{
+    height: 400px;
+    overflow-y: scroll;
+}
+.myServiceType {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.myServiceType {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.myServiceType li > div.active {
+    background: #f0f8f3;
+    border: 1px solid #198754;
+}
+.myServiceType li > div {
+    cursor: pointer;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.serviceSearch {
+  border: 1px solid #ccc;
+}

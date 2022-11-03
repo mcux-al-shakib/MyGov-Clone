@@ -1,752 +1,1066 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Unicon link -->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!-- Swiperjs link -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-        
-        <!-- CSS link -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <!-- Title Image -->
-        <link rel="icon" href="assets/img/iconBW.PNG" type="image">
-        <title>NEEMO</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav_logo">NEEMO</a>
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list grid">
-                        <li class="nav-item">
-                            <a href="#home" class="nav_link active-link">
-                                <i class="uil uil-estate nav_icon"></i> HOME
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav_link">
-                                <i class="uil uil-user nav_icon"></i> ABOUT
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#skills" class="nav_link">
-                                <i class="uil uil-file nav_icon"></i> SKILLS
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#services" class="nav_link">
-                                <i class="uil uil-briefcase-alt nav_icon"></i> SERVICES
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#portfolio" class="nav_link">
-                                <i class="uil uil-scenery nav_icon"></i> PORTFOLIO
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav_link">
-                                <i class="uil uil-message nav_icon"></i> CONTACT
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav_close" id="nav-close"></i>
-                </div>
-                <div class="nav_btns">
-                    <!-- Theme Change Button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav_toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home_container container grid">
-                    <div class="home_content grid">
-                        <div class="home_social">
-                            <a href="https://www.facebook.com/shakib.ign7" class="home_social_icon">
-                                <i class="uil uil-facebook"></i>
-                            </a>
-                            <a href="https://www.instagram.com/__al_shakib/" class="home_social_icon">
-                                <i class="uil uil-instagram"></i>
-                            </a>
-                            <a href="https://twitter.com/__al_shakib" class="home_social_icon">
-                                <i class="uil uil-twitter-alt"></i>
-                            </a>
-                            <a href="https://github.com/mcux-al-shakib" class="home_social_icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                        </div>
-                        <div class="home_img">
-                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-
-                                    <image class="home_blob-img" x="12" y="18" xlink:href="assets/img/profile.png"/>
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="home_data">
-                            <h1 class="home_title">Hi, I'm Al Shakib</h1>
-                            <h3 class="home_subtitle">Front-end Developer</h3>
-                            <p class="home_description">I am a quick learner. I believe in hard work and efficiency. I always like to learn a new technology and have experience with a new thing. Every time I read to prove myself through my work and responsibility.</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me<i class="uil uil-message button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_scroll">
-                        <a href="#about" class="home_scroll-button button--flex">
-                            <i class="uil uil-mouse-alt-2 home_scroll-mouse"></i>
-                            <span class="home_scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Owl crasual link -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.green.css">
+    <!-- Unicon link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Swiperjs link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- title image link -->
+    <link rel="icon" href="assets/images/logo.png" type="image">
+    <title>MY | GOVT</title>
+</head>
+<body>
+    <!-- Header section start -->
+    <header class="page-header" id="myGovNav">
+        <nav class="container headerCustom">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-3 pe-0 pe-md-3">
+                    <div class="text-start py-2">
+                        <a tabindex="0" href="#home" class="home-page-logo">
+                            <img class="img-fluid" src="assets/images/logo.png" alt="logo" />
                         </a>
                     </div>
                 </div>
-            </section>
+                <div class="col-8 col-sm-9 col-md-9 ps-0 ps-sm-3 text-end py-3">
+                    <ul class="header-right">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="d-none d-sm-inline-block login btn fs-8 btn-outline-success py-2 px-1 px-sm-3 px-md-4 me-1 me-sm-3 btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            লগইন করুন
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center p-4"> 
+                                    <a class="btn btn-success w-100 p-2" href="#">আবেদনকারী লগইন</a>
+                                    <div class="p-2">অথবা</div>
+                                    <a class="btn btn-primary w-100 p-2" href="#">প্রশাসনিক লগইন</a>  
+                                </div>
+                                <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                                </div> -->
+                            </div>
+                            </div>
+                        </div>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section_title">About Me</h2>
-                <span class="section_subtitle">My introduction</span>
-
-                <div class="about_container container grid">
-                    <img src="assets/img/about.png" alt="" class="about_img">
-
-                    <div class="about_data">
-                        <p class="about_description">
-                            I'm a professional and passionate web developer. I have professional experience in web development and have some experience worked on some websites. I always focus on high-quality service and 100% client satisfaction.
-                        </p>
-                        <div class="about_info">
-                            <div>
-                                <span class="about_info-title">02+</span>
-                                <span class="about_info-name">Years <br> Experience</span>
-                            </div>
-                            <div>
-                                <span class="about_info-title">15+</span>
-                                <span class="about_info-name">Completed <br> Project</span>
-                            </div>
-                            <div>
-                                <span class="about_info-title">05+</span>
-                                <span class="about_info-name">Companies <br> Worked</span>
+                        <!-- Reg btn -->
+                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Show a second modal and hide this one with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+                                </div>
+                              </div>
                             </div>
                         </div>
-                        <div class="about_buttons">
-                            <a download="" href="assets/pdf/AlShakib-CV.pdf" target="_blank" class="button button--flex">
-                                Download CV<i class="uil uil-download-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section_title">Skills</h2>
-                <span class="section_subtitle">My Technical Level</span>
-                <div class="skills_container container grid">
-                    <div>
-                        <!-- Skills One -->
-                        <div class="skills_content skills_open">
-                            <div class="skills_header">
-                                <i class="uil uil-brackets-curly skills_icon"></i>
-                                <div>
-                                    <h1 class="skills_title">Front-end Developer</h1>
-                                    <span class="skills_subtitle"> More than 2 Years</span>
+                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <i class="uil uil-angle-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">HTML</h3>
-                                        <span class="skills_number">95%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_html"></span>
-                                    </div>
+                                <div class="modal-body">
+                                  Hide this modal and show the first with the button below.
                                 </div>
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">CSS</h3>
-                                        <span class="skills_number">85%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_css"></span>
-                                    </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
                                 </div>
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">JavaScript</h3>
-                                        <span class="skills_number">60%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_js"></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">WordPress</h3>
-                                        <span class="skills_number">90%</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_wp"></span>
-                                    </div>
-                                </div>
+                              </div>
                             </div>
                         </div>
-                        <!-- Skills two -->
-                        <div class="skills_content skills_close">
-                            <div class="skills_header">
-                                <i class="uil uil-server-network skills_icon"></i>
-                                <div>
-                                    <h1 class="skills_title">Back-end Developer</h1>
-                                    <span class="skills_subtitle">Road to grow-up my skills <br> Service not allow!</span>
-                                </div>
-                                <i class="uil uil-angle-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">Python</h3>
-                                        <span class="skills_number">Comming Soon</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_python"></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">Node JS</h3>
-                                        <span class="skills_number">Comming Soon</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_nj"></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">PHP</h3>
-                                        <span class="skills_number">Comming Soon</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_php"></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data">
-                                    <div class="skills_title">
-                                        <h3 class="skills_name">Others</h3>
-                                        <span class="skills_number">Comming Soon</span>
-                                    </div>
-                                    <div class="skills_bar">
-                                        <span class="skills_percentage skills_"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-                <h2 class="section_title">Qualification</h2>
-                <span class="section_subtitle">My Personal journey</span>
-                <div class="qualification_container container">
-                    <div class="qualification_tabs">
-                        <div class="qualification_button button--flex qualification_active" data-target="#education">
-                            <i class="uil uil-graduation-cap qualification_icon"></i>
-                            Education
-                        </div>
-                        <div class="qualification_button button--flex" data-target="#experience">
-                            <i class="uil uil-briefcase qualification_icon"></i>
-                            Experience
-                        </div>
-                    </div>
-                    <div class="qualification_section">
-                        <!--=================================Qualification content 1==============================-->
-                        <div class="qualification_content qualification_active" data-content id="education">
-                            <!-- Qualification 1 -->
-                            <div class="qualification_data">
-                                <div>
-                                    <h3 class="qualification_title">Secondary</h3>
-                                    <span class="qualification_subtitle">Science - RMHS</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2016 - 2017
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <span class="qualification_line"></span>
-                                </div>
-                            </div>
-                            <!-- Qualification 2 -->
-                            <div class="qualification_data">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <span class="qualification_line"></span>
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title">Higher-Secondary</h3>
-                                    <span class="qualification_subtitle">Science - LMC</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2018 - 2019
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Qualification 3 -->
-                            <div class="qualification_data">
-                                <div>
-                                    <h3 class="qualification_title">Degree</h3>
-                                    <span class="qualification_subtitle">B.sc in Lab - CMU</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020 - Ongoing
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <span class="qualification_line"></span>
-                                </div>
-                            </div>
-                            <!-- Qualification 4 -->
-                            <div class="qualification_data">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title">Web Developing</h3>
-                                    <span class="qualification_subtitle">Chittagong it point</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020 - 2022
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--=================================Qualification content 2==============================-->
-                        <div class="qualification_content" data-content id="experience">
-                            <!-- Qualification 1 -->
-                            <div class="qualification_data">
-                                <div>
-                                    <h3 class="qualification_title">Secondary</h3>
-                                    <span class="qualification_subtitle">Science - RMHS</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2016 - 2017
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <span class="qualification_line"></span>
-                                </div>
-                            </div>
-                            <!-- Qualification 2 -->
-                            <div class="qualification_data">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <span class="qualification_line"></span>
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title">Higher-Secondary</h3>
-                                    <span class="qualification_subtitle">Science - LMC</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2018 - 2019
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Qualification 3 -->
-                            <div class="qualification_data">
-                                <div>
-                                    <h3 class="qualification_title">Degree</h3>
-                                    <span class="qualification_subtitle">B.sc in Lab - CMU</span>
-                                    <div class="qualification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020 - Ongoing
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                <h2 class="section_title">Service</h2>
-                <span class="section_subtitle">What i offered</span>
-
-                <div class="service_container container grid">
-                    <!-- service 1 -->
-                    <div class="service_content">
-                        <div>
-                            <i class="uil uil-web-grid service_icon"></i>
-                            <h3 class="service_title">WordPress <br>Design</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link service_button">
-                            View More<i class="uil uil-arrow-right button_icon"></i>
-                        </span>
-                        <div class="services_modal">
-                            <div class="services_modal-content">
-                                <h4 class="services_modal-title">WordPress <br> Design</h4>
-                                <i class="uil uil-times services_modal-close"></i>
-                                <ul class="services_modal-services grid">
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I develop the user interface</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>Web page development.</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I create ux element interactions.</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I position your company brand.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- service 2 -->
-                    <div class="service_content">
-                        <div>
-                            <i class="uil uil-arrow service_icon"></i>
-                            <h3 class="service_title">Front-end <br>Development</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link service_button">
-                            View More<i class="uil uil-arrow-right button_icon"></i>
-                        </span>
-                        <div class="services_modal">
-                            <div class="services_modal-content">
-                                <h4 class="services_modal-title">Front-end <br>Development</h4>
-                                <i class="uil uil-times services_modal-close"></i>
-                                <ul class="services_modal-services grid">
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I develop the user interface</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>Web page development.</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I create ux element interactions.</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I position your company brand.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- service 3 -->
-                    <div class="service_content">
-                        <div>
-                            <i class="uil uil-pen service_icon"></i>
-                            <h3 class="service_title">Email Sig<br>Design</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link service_button">
-                            View More<i class="uil uil-arrow-right button_icon"></i>
-                        </span>
-                        <div class="services_modal">
-                            <div class="services_modal-content">
-                                <h4 class="services_modal-title">Email Sig<br>Design</h4>
-                                <i class="uil uil-times services_modal-close"></i>
-                                <ul class="services_modal-services grid">
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I develop the user interface</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>Web page development.</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I create ux element interactions.</p>
-                                    </li>
-                                    <li class="services_modal-service">
-                                        <i class="uil uil-check-circle services_modal-icon"></i>
-                                        <p>I position your company brand.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section_title">Portfolio</h2>
-                <span class="section_subtitle">Most Recent Work</span>
-                <div class="portfolio_container container swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <!-- Portfolio 1 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">Modern Responsive Website</h3>
-                                <p class="portfolio_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis odio quis incidunt recusandae, impedit amet?</p>
-                                <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo<i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Portfolio 2 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio_img">
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">WordPress </h3>
-                                <p class="portfolio_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis odio quis incidunt recusandae, impedit amet?</p>
-                                <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo<i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Portfolio 3 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio_img">
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">Email signiture Design</h3>
-                                <p class="portfolio_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis odio quis incidunt recusandae, impedit amet?</p>
-                                <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo<i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination swiper-pagination-bullets"></div>
-                </div>
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-                <div class="project_bg">
-                    <div class="project_container container grid">
-                        <div class="project_data">
-                            <h2 class="project_title">Get 50% Discount on Fiverr!</h2>
-                            <p class="project_description">It's high time to order a project on Fiverr. At this time I'm the only person who giving 50% discount per project.</p>
-                            <a href="#contact" class="button button--flex button--white">
-                                Fiverr GIG<i class="uil uil-message project_icon button_icon"></i>
-                            </a>
-                        </div>
-                        <img src="assets/img/project.png" alt="" class="project_img">
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                <h2 class="section_title">Testimonial</h2>
-                <span class="section_subtitle">What people saying</span>
-                <div class="testimonial_container container swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <!-- testimonial 1 -->
-                        <div class="testimonial_content swiper-slide">
-                            <div class="testimonial_data">
-                                <div class="testimonial_header">
-                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial_img">
-                                    <div>
-                                        <h3 class="testimonial_name">Sara Smith</h3>
-                                        <span class="testimonial_client">Client</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                </div>
-                            </div>
-                            <p class="testimonial_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas hic quas quia asperiores maiores ratione aliquam natus eius. Obcaecati!
-                            </p>
-                        </div>
-                        <!-- testimonial 2 -->
-                        <div class="testimonial_content swiper-slide">
-                            <div class="testimonial_data">
-                                <div class="testimonial_header">
-                                    <img src="assets/img/testimonial2.jpg" alt="" class="testimonial_img">
-                                    <div>
-                                        <h3 class="testimonial_name">Jhon Smith</h3>
-                                        <span class="testimonial_client">Client</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                </div>
-                            </div>
-                            <p class="testimonial_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas hic quas quia asperiores maiores ratione aliquam natus eius. Obcaecati!
-                            </p>
-                        </div>
-                        <!-- testimonial 3 -->
-                        <div class="testimonial_content swiper-slide">
-                            <div class="testimonial_data">
-                                <div class="testimonial_header">
-                                    <img src="assets/img/testimonial3.jpg" alt="" class="testimonial_img">
-                                    <div>
-                                        <h3 class="testimonial_name">Elon Musk</h3>
-                                        <span class="testimonial_client">Client</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                    <i class="uil uil-star testimonial_icon-star"></i>
-                                </div>
-                            </div>
-                            <p class="testimonial_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas hic quas quia asperiores maiores ratione aliquam natus eius. Obcaecati!
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Add pagination -->
-                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section_title">Contact Me</h2>
-                <span class="section_subtitle">Get in Touch</span>
-                <div class="contact_container container gird">
-                    <div>
-                        <div class="contact_info">
-                            <i class="uil uil-phone contact_icon"></i>
-                            <div>
-                                <h3 class="contact_title">Call Me</h3>
-                                <span class="contact_subtitle">(+880) 1531 786700</span>
-                            </div>
-                        </div>
-                        <div class="contact_info">
-                            <i class="uil uil-envelope contact_icon"></i>
-                            <div>
-                                <h3 class="contact_title">Email</h3>
-                                <span class="contact_subtitle">alshakib1154@gmail.com</span>
-                            </div>
-                        </div>
-                        <div class="contact_info">
-                            <i class="uil uil-map-marker contact_icon"></i>
-                            <div>
-                                <h3 class="contact_title">Location</h3>
-                                <span class="contact_subtitle">Cosmopolitan, 2-No. Gate,<br>
-                                    Chittagong, BD (4200)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" class="contact_form grid">
-                        <div class="contact_inputs grid">
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Name</label>
-                                <input type="text" class="contact_input">
-                            </div>
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
-                            </div>
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Project</label>
-                            <input type="text" class="contact_input">
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Message</label>
-                            <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
-                        </div>
-                        <div>
-                            <a href="#" class="button button-flex">
-                                Send Message
-                                <i class="uil uil-message button_icon"></i>
-                            </a>
-                        </div>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer_bg">
-                <div class="footer_container container grid">
-                    <div>
-                        <a href="#home" class="footer_title"><img src="assets/img/Logo.png" alt=""></a>
-                        <span class="footer_subtitle">Front-end Developer</span>
-                    </div>
-                    <ul class="footer_links">
-                        <li><a href="#about" class="footer_link">About</a></li>
-                        <li><a href="#services" class="footer_link">Service</a></li>
-                        <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
-                        <li><a href="#contact" class="footer_link">Contact Me</a></li>
+                        <a class="d-sm-inline-block btn fs-8 btn-success py-2 px-1 px-sm-3 px-md-4 btn-custom" data-bs-toggle="modal" href="#exampleModalToggle" role="button">রেজিস্ট্রেশন</a>
                     </ul>
-                    <div class="footer_socials">
-                        <a href="https://www.facebook.com/shakib.ign7" class="footer_social"><i class="uil uil-facebook"></i></a>
-                        <a href="https://www.instagram.com/__al_shakib/" class="footer_social footer_social_1rem"><i class="uil uil-instagram"></i></a>
-                        <a href="https://twitter.com/__al_shakib" class="footer_social footer_social_1rem"><i class="uil uil-twitter-alt"></i></a>
-                        <a href="https://github.com/mcux-al-shakib" class="footer_social footer_social_1rem"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header section end -->
+    <!-- slider section start -->
+    <section class="slider_section" id="home">
+        <div class="wrapper">
+            <div class="p-0">
+                <div class="bg-white">
+                    <div class="home_back_img latest_update_bg">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="w-100" src="assets/images/Banner1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="assets/images/Banner2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="assets/images/Banner3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>           
+            <!-- slider content -->
+            <!-- <div class="home_top_cont">
+                <div class="banner_cont d-flex flex-column min-vh-100 min-vw-100" id="bannerCont">
+                    <div class="row px-2 d-flex flex-grow-1 justify-content-center align-items-center">
+                        <div id="search_div_with_text" class="col-lg-10 col-xl-6 col-md-10 col-sm-12 text-center fw-bold px-2">
+                            <h1 class="text-success my-gov-title mb-4" tabindex="0" aria-label ="এক ঠিকানায় সরকারি সেবা">
+                                এক ঠিকানায় সরকারি সেবা
+                            </h1>
+                            <div id="socianSearch">
+                                <div id="SocianSearchBar">
+                                    <div class="row" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
+                                        <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 text-center fw-bold px-2" id="search_div_with_text">
+                                            <div class="search_part mb-4">
+                                                <div class="bg-white rounded-3 p-2 searchBox">
+                                                    <div class="d-flex row g-0" style="border: 1px solid #00ff2b; border-radius: inherit;">
+                                                        <div class="col-1 col-md-1 d-flex justify-content-center align-self-center">
+                                                            <i style="color: #a7aac2;" class="uil uil-search" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="home_search_text_box_div col-7 col-md-7" id="home_search_text_box_div">
+                                                            <div class="easy-autocomplete eac-round" style="position: relative; top: 0px;">
+                                                                <input type="text" id="socian_home_search_text_box" name="search_text_box" placeholder="Search Our service" class="form-control border-0" required="required" autocomplete="off" style="color: #555; float: none; padding: 0px 0px; box-shadow: none;" >
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-2 col-md-1 d-flex justify-content-center align-self-center text-success" id="searchBarMic" tabindex="0">
+                                                            <i class="uil uil-microphone" id="socian_mic_icon" style="cursor: pointer; font-size: 20px;" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="col-2 col-md-3">
+                                                            <button style="height: 48px; line-height: 48px; font-weight: 600; font-size: 16px;" type="submit" id="socian_home_search_all" class="btn btn-custom btn-block w-100 btn-success py-0 px-1 px-md-3">
+                                                                <span id="search_btn_text">
+                                                                    Search
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="text-success abedon-condition" href="#"><u>আবেদনের সর্বশেষ অবস্থা দেখুন</u></a>
+                        </div>
                     </div>
                 </div>
-                <p class="footer_copyright">Copyright All Right Reserved | <a href="https://github.com/mcux-al-shakib"><i class="uil uil-copyright"></i>Al Shakib</a> | Since 2022</p>
+            </div>  -->
+        </div>
+        <!--Slider content-->
+    </section>
+    <!-- slider section end -->
+
+    <!-- statistics section start -->
+    <section class="statistics_section py-5" id="statistics">
+        <div class="latest_statistics_section">
+            <div class="container">
+                <div class="row justify-content-center align-self-center">
+                    <div class="col-md-3 col-lg-2 col-6 mb-3 mb-lg-0">
+                        <div class="bg-white statistics_single text-center p-3" tabindex="0">
+                            <h3 class="fw-bold count-service-num mb-0">
+                                56+
+                            </h3>
+                            <h6 class="count-service-text mb-0">Apple</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-6 mb-3 mb-lg-0">
+                        <div class="bg-white statistics_single text-center p-3" tabindex="0">
+                            <h3 class="fw-bold count-service-num mb-0">
+                                19020+
+                            </h3>
+                            <h6 class="count-service-text mb-0">Samsung</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-6 mb-3 mb-lg-0">
+                        <div class="bg-white statistics_single text-center p-3" tabindex="0">
+                            <h3 class="fw-bold count-service-num mb-0">
+                                1414+
+                            </h3>
+                            <h6 class="count-service-text mb-0">Xiaomi</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-6 mb-3 mb-lg-0">
+                        <div class="bg-white statistics_single text-center p-3" tabindex="0">
+                            <h3 class="fw-bold count-service-num mb-0">
+                                36 Lakh+
+                            </h3>
+                            <h6 class="count-service-text mb-0">OnePlus</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-6 mb-3 mb-lg-0">
+                        <div class="bg-white statistics_single text-center p-3" tabindex="0">
+                            <h3 class="fw-bold count-service-num mb-0">
+                                24 Lakh+
+                            </h3>
+                            <h6 class="count-service-text mb-0">Huawei</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-6 mb-3 mb-lg-0">
+                        <div class="bg-white statistics_single text-center p-3" tabindex="0">
+                            <h3 class="fw-bold count-service-num mb-0">
+                                <!-- ২২৯৬৭৩১+ -->
+                                23 Lakh+
+                            </h3>
+                            <h6 class="count-service-text mb-0">Asus</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scroll_up-icon"></i>
-        </a>
+        </div>
+    </section>
+    <!-- statistics section end -->
 
-        <!-- Swiperjs JS link -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- service section start -->
+    <section class="service_section" id="service">
+        <div class="service_part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 h4 text-center text-success necessary-service-apply">
+                        <h2 style="width: fit-content; float: none; margin: 0 auto;" tabindex="0">প্রয়োজনীয় সেবার জন্য আবেদন করুন</h2>
+                    </div>
+                    <div class="col-md-12 text-center pb-5">
+                        <a href="#"><button onclick="" class="btn btn-outline-success rounded-pill m-2 fw-bold">Button one</button></a>
+                        <a href="#"><button onclick="" class="btn btn-outline-secondary rounded-pill m-2 fw-bold">Button two</button></a>
+                    </div>
+                </div>
+            
+                <div class="row justify-content-center align-self-center service_list_main_div">
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="assets/link/multypage.html">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon1.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        নিবন্ধন ও লাইসেন্স
+                                    </h6>
+                                    <div>
+                                        ৩০
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="assets/link/multypage.html">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon2.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        কৃষি
+                                    </h6>
+                                    <div>
+                                        ৭
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="https://www.mygov.bd/services?category=sector&data=service-sector-37">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon3.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        অর্থ ও ব্যাংক
+                                    </h6>
+                                    <div>
+                                        ৬
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="https://www.mygov.bd/services?category=sector&data=service-sector-19">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon4.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        নিবন্ধন ও লাইসেন্স
+                                    </h6>
+                                    <div>
+                                        ৬৩৬
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="https://www.mygov.bd/services?category=sector&data=service-sector-27">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon5.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        ব্যক্তিগত আবেদন
+                                    </h6>
+                                    <div>
+                                        ৪
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="https://www.mygov.bd/services?category=sector&data=service-sector-3">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon6.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        নিবন্ধন ও লাইসেন্স
+                                    </h6>
+                                    <div>
+                                        ১৩
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="https://www.mygov.bd/services?category=sector&data=service-sector-4">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon7.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        অনুদান, ভাতা ও ঋণ
+                                    </h6>
+                                    <div>
+                                        ৪৫
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 bg-white justify-content-center align-self-center text-center">
+                        <div class="border rounded-15 service_single mb-3 mb-md-4 service_list justify-content-center align-self-center">
+                            <a class="p-2 p-md-3 d-block" href="https://www.mygov.bd/services?category=sector&data=service-sector-16">
+                                <div class="col-12 p-2 mb-2 text-center service_icon">
+                                    <img src="assets/images/S-icon8.png" alt="service">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="sector-head">
+                                        শিক্ষা
+                                    </h6>
+                                    <div>
+                                        ১০৯
+                                        টি সেবা
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mt-4 service-footer-btn">
+                    <a href="#" class="btn btn-success">সকল সেবা ক্যাটাগরি দেখুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
 
-        <!-- Main JS link -->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!-- business service section start -->
+    <section class="business_service_section" id="business_service">
+        <div class="latest_business_service">
+            <div class="container pt-2">
+                <div class="business_back_image">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4">
+                        </div>
+                        <div class="col-md-5 col-lg-4">
+                            <h4 class="app-service-text business-service-text text-center" tabindex="0" aria-label = "ব্যবসা সংক্রান্ত সেবা">ব্যবসা সংক্রান্ত সেবা</h4>
+                        </div>
+                        <div class="col-md-3 col-lg-4 text-center">
+                            <a target="_blank" class="btn btn-success rounded-pill business-details-btn text-center" href=https://business.mygov.bd/ tabindex="0" aria-label = "বিস্তারিত দেখুন">বিস্তারিত দেখুন</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- business service section end -->
+
+    <!-- Update service section start -->
+    <section class="update_service_section" id="update_service">
+        <div class="latest_update_service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 h4 text-center text-success necessary-service-apply">
+                        <h2 style="width: fit-content; float: none; margin: 0 auto;" tabindex="0">জনপ্রিয় সেবা সমূহ</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+                        <a href="assets/link/service.html" class="bg-white rounded p-3 latest_service_box">
+                            <div class="row">
+                                <div class="col-1 col-sm-2 col-md-1 pt-1">
+                                    <i class="uil uil-file-alt form-icon-color rounded"></i>
+                                </div>
+                                <div class="col-11 col-sm-10 col-md-11 boxText">
+                                    <h6>জাতীয় ভোক্তা অধিকার অভিযোগ ফরম</h6>
+                                    <p class="m-0">দপ্তর: জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+                        <a href="assets/link/service.html" class="bg-white rounded p-3 latest_service_box">
+                            <div class="row">
+                                <div class="col-1 col-sm-2 col-md-1 pt-1">
+                                    <i class="uil uil-file-alt form-icon-color rounded"></i>
+                                </div>
+                                <div class="col-11 col-sm-10 col-md-11 boxText">
+                                    <h6>জাতীয় ভোক্তা অধিকার অভিযোগ ফরম</h6>
+                                    <p class="m-0">দপ্তর: জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+                        <a href="assets/link/service.html" class="bg-white rounded p-3 latest_service_box">
+                            <div class="row">
+                                <div class="col-1 col-sm-2 col-md-1 pt-1">
+                                    <i class="uil uil-file-alt form-icon-color rounded"></i>
+                                </div>
+                                <div class="col-11 col-sm-10 col-md-11 boxText">
+                                    <h6>জাতীয় ভোক্তা অধিকার অভিযোগ ফরম</h6>
+                                    <p class="m-0">দপ্তর: জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+                        <a href="assets/link/service.html" class="bg-white rounded p-3 latest_service_box">
+                            <div class="row">
+                                <div class="col-1 col-sm-2 col-md-1 pt-1">
+                                    <i class="uil uil-file-alt form-icon-color rounded"></i>
+                                </div>
+                                <div class="col-11 col-sm-10 col-md-11 boxText">
+                                    <h6>জাতীয় ভোক্তা অধিকার অভিযোগ ফরম</h6>
+                                    <p class="m-0">দপ্তর: জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+                        <a href="assets/link/service.html" class="bg-white rounded p-3 latest_service_box">
+                            <div class="row">
+                                <div class="col-1 col-sm-2 col-md-1 pt-1">
+                                    <i class="uil uil-file-alt form-icon-color rounded"></i>
+                                </div>
+                                <div class="col-11 col-sm-10 col-md-11 boxText">
+                                    <h6>জাতীয় ভোক্তা অধিকার অভিযোগ ফরম</h6>
+                                    <p class="m-0">দপ্তর: জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+                        <a href="assets/link/service.html" class="bg-white rounded p-3 latest_service_box">
+                            <div class="row">
+                                <div class="col-1 col-sm-2 col-md-1 pt-1">
+                                    <i class="uil uil-file-alt form-icon-color rounded"></i>
+                                </div>
+                                <div class="col-11 col-sm-10 col-md-11 boxText">
+                                    <h6>জাতীয় ভোক্তা অধিকার অভিযোগ ফরম</h6>
+                                    <p class="m-0">দপ্তর: জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Update service section end -->
+
+    <!-- Video section start -->
+    <section class="video_section" id="video_section">
+        <div class="container">
+            <div class="commonly_asked">
+                <div class="row">
+                    <h2 class="col-md-12 h4 text-center text-success unecessary-service-apply" tabindex="0">টিউটোরিয়াল</h2>
+                </div>
+                <div class="row justify-content-center align-self-center service_list_main_div">
+                    <div class="col-sm-6 col-md-4 mb-3 mb-md-0" tabindex="0">
+                        <div class="youTubeContainer">
+                            <iframe class="col-md-12 video" tabindex="0" src="https://www.youtube.com/embed/uUdFMu6vaCo"></iframe>
+                        </div>
+                        <p class="video-tutorial-title"><b>মাইগভে নাগরিক লগইন, রেজিস্ট্রেশন এবং প্রোফাইল আপডেট</b></p>
+                        <span class="video-tutorial-time">
+                            <i class="uil uil-clock"></i> May 2022  03:57
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mb-3 mb-md-0" tabindex="0">
+                        <div class="youTubeContainer">
+                            <iframe class="col-md-12 video" tabindex="0" src="https://www.youtube.com/embed/uUdFMu6vaCo"></iframe>
+                        </div>
+                        <p class="video-tutorial-title"><b>মাইগভে নাগরিক লগইন, রেজিস্ট্রেশন এবং প্রোফাইল আপডেট</b></p>
+                        <span class="video-tutorial-time">
+                            <i class="uil uil-clock"></i> May 2022  03:57
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mb-3 mb-md-0" tabindex="0">
+                        <div class="youTubeContainer">
+                            <iframe class="col-md-12 video" tabindex="0" src="https://www.youtube.com/embed/uUdFMu6vaCo"></iframe>
+                        </div>
+                        <p class="video-tutorial-title"><b>মাইগভে নাগরিক লগইন, রেজিস্ট্রেশন এবং প্রোফাইল আপডেট</b></p>
+                        <span class="video-tutorial-time">
+                            <i class="uil uil-clock"></i> May 2022  03:57
+                        </span>
+                    </div>       
+                    <div class="col-md-12 text-center mt-5">
+                        <a href="https://www.mygov.bd/tutorial-list" class="btn btn-success" tabindex="0">সকল টিউটোরিয়াল দেখুন</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- Video section end -->
+
+    <!-- Mobile review Start -->
+            <div class="mobile_review">
+                <div class="row  mb-3 mb-md-5 ">
+                    <div class="col-12 col-sm-6">
+                        <div class="text-end">
+                            <div class="latest_update_bg rounded-30">
+                                <img src="https://cpanel.live.mygov.bd/organization/61582f437a3c6/promotion/promotion_2b71c181006220131e48d5a2c44fb577906ea90a.png" alt="এক ঠিকানায় সরকারি সেবা" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block col-md-1"></div>
+                    <div class="col-12 col-sm-6 col-md-5 service-with-text">
+                        <div class="text-start">
+                            <div class="text-success py-2 mobile-review-icon"><i class="uil uil-folder-minus"></i></div>
+                            <h3 class="heading-with-text" tabindex="0">এক ঠিকানায় সরকারি সেবা</h3>
+                            <p class="mb-0 details-with-text" tabindex="0">এখন ঘরে বসে যে কোনো সরকারি সেবার জন্য  আবেদন করতে এবং আবেদনের সর্বশেষ অবস্থা সম্পর্কে জানতে পারবেন।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  mb-3 mb-md-5 ">
+                    <div class="col-12 col-sm-6 col-md-5 search-with-text order-last order-md-first">
+                        <div class="text-success py-2 mobile-review-icon"><i class="uil uil-folder-minus"></i></div>
+                        <h3 class="heading-with-text" tabindex="0">সহজ সার্চ</h3>
+                        <p class="details-with-text mb-0" tabindex="0">এখন খুব সহজেই বাংলায় ও ইংরেজিতে সার্চ এবং ভয়েস সার্চ করে আপনার কাঙ্ক্ষিত সেবাটি খুঁজে নিতে পারবেন।</p>
+                    </div>
+                    <div class="d-none d-md-block col-md-1"></div>
+                    <div class="col-12 col-sm-6 order-first order-md-last">
+                        <div class="text-start">
+                            <div class="latest_update_bg rounded-30">
+                                <img src="https://cpanel.live.mygov.bd/organization/61582f437a3c6/promotion/promotion_3e1f8a33a5f5c93130400335bcc8bf09e98e1708.png" alt="Easy search promotion image" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  mb-3 mb-md-5 ">
+                    <div class="col-12 col-sm-6">
+                        <div class="text-end">
+                            <div class="latest_update_bg rounded-30">
+                                <img src="https://cpanel.live.mygov.bd/organization/61582f437a3c6/promotion/promotion_2b71c181006220131e48d5a2c44fb577906ea90a.png" alt="এক ঠিকানায় সরকারি সেবা" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block col-md-1"></div>
+                    <div class="col-12 col-sm-6 col-md-5 service-with-text">
+                        <div class="text-start">
+                            <div class="text-success py-2 mobile-review-icon"><i class="uil uil-folder-minus"></i></div>
+                            <h3 class="heading-with-text" tabindex="0">এক ঠিকানায় সরকারি সেবা</h3>
+                            <p class="mb-0 details-with-text" tabindex="0">এখন ঘরে বসে যে কোনো সরকারি সেবার জন্য  আবেদন করতে এবং আবেদনের সর্বশেষ অবস্থা সম্পর্কে জানতে পারবেন।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- Mobile review end -->
+
+    <!-- Works section start-->
+    <section class="work_section" id="work_section">
+        <div class="latest_update_service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 h4 text-center text-success ecessary-service-apply" tabindex="0">মাইগভ কীভাবে কাজ করে </div>
+                </div>
+                <div class="row justify-content-center align-self-center mb-4">
+                    <div class="col-sm-6 col-md-4 rounded text-center" tabindex="0">
+                        <img src="https://cpanel.live.mygov.bd/organization/61582f437a3c6/step/step_3b89a8797b294a040ddf077986c6fbc4d9499ee9.png" alt="" class="img-fluid">
+                        <p class="text-center text-success mt-2 mt-md-4 mb-2">ধাপ ১</p>
+                        <h6 class="fw-bold heading-with-text_bot">ফ্রি রেজিস্ট্রেশন করুন</h6>
+                        <p class="text-center details-with-text">মাইগভ প্লাটফর্মে রেজিঃ করে আপনার প্রোফাইলে প্রয়োজনীয় তথ্যাদি যোগ করুন।</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 rounded text-center" tabindex="0">
+                        <img src="https://cpanel.live.mygov.bd/organization/61582f437a3c6/step/step_17168472f3f27f389c4f5397fe55eb1201423534.png" alt="" class="img-fluid">
+                        <p class="text-center text-success mt-2 mt-md-4 mb-2">ধাপ ২</p>
+                        <h6 class="fw-bold heading-with-text_bot">কাঙ্ক্ষিত সার্ভিসটি আবেদন করুন</h6>
+                        <p class="text-center details-with-text">সেবাখাত থেকে আপনার দরকারি সেবাটি নির্বাচন করে প্রয়োজনীয় তথ্যাদি প্রদান করে আবেদনটি দাখিল করুন।</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 rounded text-center" tabindex="0">
+                        <img src="https://cpanel.live.mygov.bd/organization/61582f437a3c6/step/step_89dc667f83abe156d7cdcff9acd04756bd7eb02c.png" alt="" class="img-fluid">
+                        <p class="text-center text-success mt-2 mt-md-4 mb-2">ধাপ ৩</p>
+                        <h6 class="fw-bold heading-with-text_bot">আবেদনের সর্বশেষ অবস্থা জানুন</h6>
+                        <p class="text-center details-with-text">আপনি আবেদনের চলতি অবস্থা দেখতে পারবেন এবং আপনার ইমেইল ও ফোনে পৌঁছে যাবে আবেদনের সকল আপডেট।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Works section end -->
+
+    <!-- Commonly asked section start -->
+    <section class="faq_section" id="faq">
+        <div class="commonly_asked">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 h4 text-center text-success necessary-service-apply" tabindex="0">সচরাচর জিজ্ঞাসা</div>
+                </div>
+                <div class="d-md-flex align-items-center">
+                    <div class="col-12 col-md-7">
+                        <div onclick="divShowHide('commonly_asked_div_1','commonly_asked_icon_div_1');">
+                            <div class="accti1 border rounded my-3 p-3 pointer" tabindex="0">
+                                <div class="row">
+                                    <div class="col-10 col-md-11 fw-bold common-ask-title">
+                                        রেজিস্ট্রেশন ব্যতীত সেবার আবেদন করা যাবে কি না?
+                                    </div>
+                                    <div id="commonly_asked_icon_div_1" class="col-2 col-md-1"><i class="uil uil-angle-up uil-lg"></i>
+                                    </div>
+                                    <div id="commonly_asked_div_1" class="col-12 col-md-11 common-ask-details">
+                                        মাইগভে সেবার আবেদন করতে হলে মোবাইল নম্বর ব্যবহার করে রেজিস্ট্রেশন করতে হবে। রেজিস্ট্রেশনের সময় প্রোফাইলে যেসকল তথ্য প্রদান করা হবে পরবর্তীতে সেবার আবেদন ফরমে সেইসব তথ্য পুনরায় দেওয়ার প্রয়োজন হবে না।
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function($) {
+                                $(".accti1").keyup(function(event) {
+                                    if (event.keyCode === 13) {
+                                        $(this).click();
+                                    }
+                                });
+                            });
+                        </script>
+                        <div onclick="divShowHide('commonly_asked_div_2','commonly_asked_icon_div_2');">
+                            <div class="accti1 border rounded my-3 p-3 pointer" tabindex="0">
+                                <div class="row">
+                                    <div class="col-10 col-md-11 fw-bold common-ask-title">
+                                        অন্য কারো পক্ষে সেবার আবেদন করার সুযোগ আছে কি না?
+                                    </div>
+                                    <div id="commonly_asked_icon_div_1" class="col-2 col-md-1"><i class="uil uil-angle-up uil-lg"></i>
+                                    </div>
+                                    <div id="commonly_asked_div_2" class="col-12 col-md-11 common-ask-details">
+                                        সেবা প্রাপ্তির শর্তে উল্লেখ থাকলে কেবল মাত্র অনুমোদিত ব্যক্তি সেবা গ্রহীতার পক্ষে আবেদন দাখিল করতে পারবেন।
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function($) {
+                                $(".accti1").keyup(function(event) {
+                                    if (event.keyCode === 13) {
+                                        $(this).click();
+                                    }
+                                });
+                            });
+                        </script>
+                        <div onclick="divShowHide('commonly_asked_div_3','commonly_asked_icon_div_3');">
+                            <div class="accti1 border rounded my-3 p-3 pointer" tabindex="0">
+                                <div class="row">
+                                    <div class="col-10 col-md-11 fw-bold common-ask-title">
+                                        প্রোফাইল থেকে কী সুবিধা পাওয়া যাবে?
+                                    </div>
+                                    <div id="commonly_asked_icon_div_1" class="col-2 col-md-1"><i class="uil uil-angle-up uil-lg"></i>
+                                    </div>
+                                    <div id="commonly_asked_div_3" class="col-12 col-md-11 common-ask-details">
+                                        ১। সেবার আবেদনের জন্য প্রয়োজনীয় গুরুত্বপূর্ণ তথ্য ও ডকুমেন্ট প্রোফাইলে সংরক্ষণ করে রাখা যাবে। <br />
+                                        ২। সেবার আবেদনের সময় এ সকল তথ্য ও ডকুমেন্ট আপলোড না করেও পুনরায় ব্যবহার করা যাবে।<br />
+                                        ৩। একজন আবেদনকারী বিভিন্ন দপ্তরের কাছে করা সকল আবেদনের তথ্য ও সর্বশেষ অগ্রগতির অবস্থা প্রোফাইলে লগইন করার মাধ্যমে জানতে পারবেন। <br />
+                                        ৪। প্রোফাইলে সংরক্ষিত তথ্য ও ডকুমেন্ট সময়ে সময়ে পরিবর্তন করার মাধ্যমে হালনাগাদ রাখা যাবে।<br />
+                                        ৫। আবেদন ফরম নাগরিক প্রোফাইল থেকে তথ্য গ্রহণ করে অটোফিল করে নিবে ।
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function($) {
+                                $(".accti1").keyup(function(event) {
+                                    if (event.keyCode === 13) {
+                                        $(this).click();
+                                    }
+                                });
+                            });
+                        </script>
+                        <div onclick="divShowHide('commonly_asked_div_4','commonly_asked_icon_div_4');">
+                            <div class="accti1 border rounded my-3 p-3 pointer" tabindex="0">
+                                <div class="row">
+                                    <div class="col-10 col-md-11 fw-bold common-ask-title">
+                                        সেবার নির্ধারিত ফি বা পেমেন্ট অনলাইনে প্রদান করা যাবে কি না?
+                                    </div>
+                                    <div id="commonly_asked_icon_div_1" class="col-2 col-md-1"><i class="uil uil-angle-up uil-lg"></i>
+                                    </div>
+                                    <div id="commonly_asked_div_4" class="col-12 col-md-11 common-ask-details">
+                                        সেবাদানকারী প্রতিষ্ঠানের নির্ধারিত পেমেন্ট গেটওয়ে পদ্ধতি অনুসরণ করে মাইগভের সেবার আবেদনের নির্ধারিত ফি অনলাইনে পরিশোধ করা যাবে ।
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function($) {
+                                $(".accti1").keyup(function(event) {
+                                    if (event.keyCode === 13) {
+                                        $(this).click();
+                                    }
+                                });
+                            });
+                        </script>
+                        <div onclick="divShowHide('commonly_asked_div_5','commonly_asked_icon_div_5');">
+                            <div class="accti1 border rounded my-3 p-3 pointer" tabindex="0">
+                                <div class="row">
+                                    <div class="col-10 col-md-11 fw-bold common-ask-title">
+                                        সেবার আবেদনের অগ্রগতি কিভাবে জানা যাবে?
+                                    </div>
+                                    <div id="commonly_asked_icon_div_1" class="col-2 col-md-1"><i class="uil uil-angle-up uil-lg"></i>
+                                    </div>
+                                    <div id="commonly_asked_div_5" class="col-12 col-md-11 common-ask-details">
+                                        আবেদনের সর্বশেষ অবস্থা লিঙ্কে ক্লিক করার পর আবেদনের সময় প্রাপ্ত ট্র্যাকিং নম্বর ব্যবহার করে আবেদনের সর্বশেষ অবস্থা জানা যাবে। এছাড়া সেবা ব্যবস্থাপনা থেকেও দাখিলকৃত আবেদনসমূহের অবস্থা জানা যাবে।
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function($) {
+                                $(".accti1").keyup(function(event) {
+                                    if (event.keyCode === 13) {
+                                        $(this).click();
+                                    }
+                                });
+                            });
+                        </script>
+                        <div onclick="divShowHide('commonly_asked_div_6','commonly_asked_icon_div_6');">
+                            <div class="accti1 border rounded my-3 p-3 pointer" tabindex="0">
+                                <div class="row">
+                                    <div class="col-10 col-md-11 fw-bold common-ask-title">
+                                        সেবা না পাওয়া গেলে করণীয় কী?
+                                    </div>
+                                    <div id="commonly_asked_icon_div_1" class="col-2 col-md-1"><i class="uil uil-angle-up uil-lg"></i>
+                                    </div>
+                                    <div id="commonly_asked_div_6" class="col-12 col-md-11 common-ask-details">
+                                        ১। হেল্প লাইনে কল করে সহায়তা নেওয়া যেতে পারে <br />
+                                        ২। অভিযোগ দাখিল করুন লিঙ্কে ক্লিক করে অভিযোগ জানানো যেতে পারে।
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function($) {
+                                $(".accti1").keyup(function(event) {
+                                    if (event.keyCode === 13) {
+                                        $(this).click();
+                                    }
+                                });
+                            });
+                        </script>
+                        <script src="assets/js/script.js"></script>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <img src="https://www.mygov.bd/img/home/commonly_asked_right_banner.png" alt="Frequently Asked Questions image" class="img-fluid ms-0 ms-md-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Commonly asked section end -->
+
+    <!-- Apps section start -->
+    <section class="apps_section" id="apps_section">
+        <div class="latest_update_service">
+            <div class="container pt-5">
+                <div class="d-md-flex rounded-30 use-app-service">
+                    <div class="row">
+                        <div class="col-md-8 justify-content-center align-self-center">
+                            <div class="row justify-content-center">
+                                <h4 style="text-align: center;" tabindex="0" class="mt-3 text-white col-md-8 app-service-text justify-content-center align-self-center">স্বল্প সময়ে, উন্নত সেবা পেতে মাইগভ অ্যাপ ব্যবহার করুন</h4>
+                                <div class="col-md-5 play_store_img">
+                                    <a target="_blank" href="#"><img src="assets/images/google_play_white.png" alt="" class="img-fluid mt-2 mt-md-4 mb-3 mb-sm-0"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 justify-content-center align-self-center home_app_service_image">
+                            <img src="assets/images/mobile-app.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Apps section end -->
+
+    <!-- Carousel section start -->
+    <section class="carousel_section" id="carousel">
+        <div class="latest_update_service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 h4 text-center text-success necessary-service-apply" tabindex="0">সাম্প্রতিক আপডেট</div>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <!-- <div class="owl-stage-outer"> -->
+                        <div class="item">
+                            <a href="assets/link/landing page 1.html">
+                                <div class="img-fluid" style="width: 358.667px; margin-right: 20px;" ><img src="assets/images/slider-4.jpg" alt=""></div>
+                                <div class="img_content"><h6 class="mt-3">Lorem ipsum dolor sit amet.</h6></div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="assets/link/landing page 1.html">
+                                <div class="img-fluid" style="width: 358.667px; margin-right: 20px;" ><img src="assets/images/slider-2.jpg" alt=""></div>
+                                <div class="img_content"><h6 class="mt-3">Lorem ipsum dolor sit amet consectetur.</h6></div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="assets/link/landing page 1.html">
+                                <div class="img-fluid" style="width: 358.667px; margin-right: 20px;" ><img src="assets/images/slider-3.jpg" alt=""></div>
+                                <div class="img_content"><h6 class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing.</h6></div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="assets/link/landing page 1.html">
+                                <div class="img-fluid" style="width: 358.667px; margin-right: 20px;" ><img src="assets/images/slider-1.jpg" alt=""></div>
+                                <div class="img_content"><h6 class="mt-3">Lorem ipsum dolor sit amet.</h6></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel section end -->
+
+    <!-- help desk section start -->
+    <section class="help_desk_section" id="help_section">
+        <div class="border-bottom commonly_asked">
+            <div class="container">
+                <div id="help_desk_main_row">
+                    <div class="row">
+                        <h2 class="col-md-12 h4 text-center text-success necessary-service-apply" tabindex="0">কোন সাহায্য প্রয়োজন?</h2>
+                    </div>
+                    <div class="help_desk_inner">
+                        <div class="d-sm-flex align-items-center">
+                            <div class="col-12 col-sm-7 col-md-7">
+                                <div class="row border pointer rounded py-3 mt-3"
+                                    onclick="divShowHide('commonly_asked_div_7','commonly_asked_icon_div_7');">
+                                    <div class="col-2 col-md-2 d-flex justify-content-center align-self-center text-end"><img class="img-fluid" src="https://www.mygov.bd/img/home/call_icon.png" alt=""></div>
+                                    <div class="col-10 col-md-10 d-flex justify-content-between align-self-center px-2 ">
+                                        <div class="col-md-11">কল করুন</div>
+                                        <div class="col-md-1  text-center" id="commonly_asked_icon_div_7"><i
+                                                class="uil uil-angle-up uil-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="commonly_asked_div_7" class="row">
+                                    <div class="container">
+                                        <div class="row border border-top-0 py-3 help_desk_grid">
+                                            <div class="col-11 ps-3">
+                                                <h5 tabindex="0" aria-label="333 সরকারি তথ্য ও সেবা" class="m-0">333</h5>
+                                                <h6 class="m-0 text-secondary">সরকারি তথ্য ও সেবা</h6>
+                                            </div>
+                                            <div class="col-1 d-flex justify-content-center align-self-center text-success ps-1">
+                                                <i class="uil uil-phone-alt uil-lg"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row border border-top-0 py-3 help_desk_grid">
+                                            <div class="col-11 ps-3">
+                                                <h5 tabindex="0" aria-label="999 জরুরি সেবা" class="m-0">999</h5>
+                                                <h6 class="m-0 text-secondary">জরুরি সেবা</h6>
+                                            </div>
+                                            <div class="col-1 d-flex justify-content-center align-self-center text-success ps-1">
+                                                <i class="uil uil-phone-alt uil-lg"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row border border-top-0 py-3 help_desk_grid">
+                                            <div class="col-11 ps-3">
+                                                <h5 tabindex="0" aria-label="09666727278 মাইগভ সংক্রান্ত যেকোনো সমস্যা / জিজ্ঞাসা" class="m-0">09666727278</h5>
+                                                <h6 class="m-0 text-secondary">মাইগভ সংক্রান্ত যেকোনো সমস্যা / জিজ্ঞাসা</h6>
+                                            </div>
+                                            <div class="col-1 d-flex justify-content-center align-self-center text-success ps-1">
+                                                <i class="uil uil-phone-alt uil-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-5 col-md-5">
+                                <img class="img-fluid ms-0 ms-sm-3 ms-md-5" src="https://www.mygov.bd/img/home/help_desk_right.png" alt="Help Desk image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!-- help desk section end -->
+
+    <!-- footer section start -->
+    <footer class="page-footer mt-2 ">
+        <section class="">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row py-5">
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_1 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-3 mb-md-0">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4 footer_title">
+                            আমাদের অ্যাপ
+                        </h6>
+                        <div class="row">
+                            <a target="_blank" class="footer_app_link col-md-7" href="https://play.google.com/store/apps/details?id=com.orangebd.amarshorkar">
+                                <img class="img-fluid apps_logo"  src="https://www.mygov.bd/img/home/google-play-logo.png" alt="মাইগভ মোবাইল অ্যাপ ডাউনলোড করতে এখানে ক্লিক করুন">
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_2 col-sm-6 col-md-2 col-lg-3 col-xl-2 mx-auto mb-3 mb-md-0 text-center">
+                        <!-- Links -->
+                        <h6 tabindex="0" class="text-uppercase fw-bold mb-4 footer_title">
+                            বিবিধ
+                        </h6>
+                        <p>
+                            <a href="https://www.mygov.bd/application-latest-status" class="text-reset fw-normal">আবেদনের সর্বশেষ অবস্থা</a>
+                        </p>
+                        <p>
+                            <a href="https://www.mygov.bd/about" class="text-reset fw-normal">মাইগভ সম্পর্কে</a>
+                        </p>
+                        
+                        <p>
+                            <a href="https://www.mygov.bd/frequently-asked-question" class="text-reset fw-normal"> সচরাচর জিজ্ঞাসা</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_3 col-sm-6 col-md-3 col-lg-3 col-xl-2 mx-auto mb-3 mb-md-0 text-center">
+                        <!-- Links -->
+                        <h6 tabindex="0" class="text-uppercase fw-bold mb-4 footer_title">
+                            আইনগত
+                        </h6>
+                        <p>
+                            <a href="https://www.mygov.bd/conditions" class="text-reset fw-normal">পরিষেবার শর্তাবলী</a>
+                        </p>
+                        <p>
+                            <a href="https://www.mygov.bd/help-desk" class="text-reset fw-normal">হেল্প ডেস্ক</a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_4 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3 mb-md-0 text-center">
+                        <!-- Links -->
+                        <h6 tabindex="0" class="text-uppercase fw-bold mb-4 footer_title">
+                            যোগাযোগ
+                        </h6>
+                            <p tabindex="0" class="fw-normal"><a href="mailto:support@mygov.bd" class="text-reset fw-normal">support@mygov.bd</a></p>        
+                            <p tabindex="0" class="fw-normal">09666727278</p>
+                            <p tabindex="0" class="fw-normal"></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <div class="container border-top">
+            <div class="row py-3">
+                <div class="footer_col footer_col_5 col-md-4 col-sm-6 text-start mb-3 mb-md-0">
+                    <a href="https://a2i.gov.bd/" target="_blank" class="col d-flex h-100 text-sm-center d-flex justify-content-center">
+                        <div class="col-md-5 col-sm-5 justify-content-center align-self-center">
+                            পরিকল্পনা ও বাস্তবায়নে
+                        </div>
+                        <div class="col-md-7 col-sm-7">
+                            <img class="img-fluid" src="https://www.mygov.bd/img/a2i-logo-set.png" alt="A2i ICT devision logo set" />
+                        </div>
+                    </a>
+                </div>
+                <div tabindex="0" class="footer_col footer_col_6 col-md-4 col-sm-6 mb-3 mb-md-0 text-center h-100">
+                    কপিরাইট &copy; 
+                        ২০২২
+                        সর্বস্বত্ব সংরক্ষিত</br>
+                    গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+                </div>
+                <div class="footer_col footer_col_7 col-md-4 col-sm-12 text-sm-center">
+                    <a href="https://orangebd.com/" target="_blank" class="row d-flex h-100 justify-content-center justify-content-lg-end justify-content-md-end justify-content-sm-center align-self-sm-center justify-content-xs-center">
+                        <div class="col-6 col-md-5 col-sm-4 d-flex justify-content-center align-self-center justify-content-sm-center align-self-sm-center text-sm-center pe-0">
+                            কারিগরি সহযোগিতায়
+                        </div>
+                        <div class="col-4 col-md-4 col-sm-2 d-flex justify-content-center align-self-center ps-0">
+                            <img class="img-fluid"  src="https://www.mygov.bd/img/orangebd-logo.png" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </footer>  
+    <!-- footer section end -->
+
+    <!-- Scroll top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scroll_up-icon"></i>
+    </a>
+    <!-- Scroll top -->
+
+    <!-- Bootstrap js link -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Swiperjs JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- jQuary link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Owl carousel link -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- JavaScript link -->
+    <script src="assets/js/script.js"></script>
+</body>
 </html>

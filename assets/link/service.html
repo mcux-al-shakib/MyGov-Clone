@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Unicon link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">  
+    <!-- Swiperjs link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="../css/service.css">
+    <!-- title image link -->
+    <link rel="icon" href="../images/logo.png" type="image">
+    <title>MY | GOVT</title>
+</head>
+<body>
+    <!-- Header section start -->
+    <header class="page-header" id="myGovNav">
+        <nav class="container headerCustom">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-3 pe-0 pe-md-3">
+                    <div class="text-start py-2">
+                        <a tabindex="0" href="#home" class="home-page-logo">
+                            <img class="img-fluid" src="../images/logo.png" alt="logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-9 col-md-9 ps-0 ps-sm-3 text-end py-3">
+                    <ul class="header-right">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="d-none d-sm-inline-block login btn fs-8 btn-outline-success py-2 px-1 px-sm-3 px-md-4 me-1 me-sm-3 btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            লগইন করুন
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center p-4"> 
+                                    <a class="btn btn-success w-100 p-2" href="#">আবেদনকারী লগইন</a>
+                                    <div class="p-2">অথবা</div>
+                                    <a class="btn btn-primary w-100 p-2" href="#">প্রশাসনিক লগইন</a>  
+                                </div>
+                                <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                                </div> -->
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- Reg btn -->
+                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Show a second modal and hide this one with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Hide this modal and show the first with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <a class="d-sm-inline-block btn fs-8 btn-success py-2 px-1 px-sm-3 px-md-4 btn-custom" data-bs-toggle="modal" href="#exampleModalToggle" role="button">রেজিস্ট্রেশন</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header section end -->
+    
+    <!-- main content -->
+        <div class="container cont_pad">
+            <div class="row">
+                <div class="col-12">
+                    <div tabindex="0" class="service-title-info p-2">
+                        Application for service section
+                    </div>
+                </div>
+                <div class="col-12 text-end mb-3">
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Show a second modal and hide this one with the button below.
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Hide this modal and show the first with the button below.
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <a class="d-sm-inline-block btn fs-8 btn-success py-2 px-1 px-sm-3 px-md-4 btn-custom" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="uil uil-telegram-alt me-2"> Apply Here </i></a>
+                </div>
+                <div class="col-12 col-md-6 mb-3 mb-sm-0">
+                    <div class="common-bg">
+                        <div class="border rounded p-2">
+                            <h5 tabindex="0" class="border-bottom bg-light p-2">Help Information</h5>
+                            <div class="row">
+                                <div class="col-12 mb-2 mt-2" tabindex="0">
+                                    <div class="mb-2">
+                                        <span class="alert alert-primary p-1 px-2">
+                                            <i class="uil uil-info-circle me-2"></i>
+                                            Information
+                                        </span>
+                                    </div>
+                                    <div class="border bg-light rounded p-2">
+                                        <p>Information</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-2 mt-2" tabindex="0">
+                                    <div class="mb-2">
+                                        <span class="alert alert-primary p-1 px-2">
+                                            <i class="uil uil-info-circle me-2"></i>
+                                            Information
+                                        </span>
+                                    </div>
+                                    <div class="border bg-light rounded p-2">
+                                        <p>Information</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-2 mt-2" tabindex="0">
+                                    <div class="mb-2">
+                                        <span class="alert alert-primary p-1 px-2">
+                                            <i class="uil uil-info-circle me-2"></i>
+                                            Information
+                                        </span>
+                                    </div>
+                                    <div class="border bg-light rounded p-2">
+                                        <p>Information</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="common-bg">
+                        <div class="border rounded p-2">
+                            <h5 tabindex="0" class="border-bottom bg-light p-2">Rules for filling the application form</h5>
+                            <div class="common-service-information">
+                                <ul> 
+                                    <li tabindex="0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae suscipit saepe nisi quaerat temporibus.
+                                    </li>
+                                    <li tabindex="0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae suscipit saepe nisi quaerat temporibus.
+                                    </li>
+                                    <li tabindex="0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae suscipit saepe nisi quaerat temporibus.
+                                    </li>
+                                    <li tabindex="0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae suscipit saepe nisi quaerat temporibus.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- main content end -->
+
+    <!-- footer section start -->
+    <footer class="page-footer mt-2 ">
+        <section class="">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row py-5">
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_1 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-3 mb-md-0">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4 footer_title">
+                            আমাদের অ্যাপ
+                        </h6>
+                        <div class="row">
+                            <a target="_blank" class="footer_app_link col-md-7" href="https://play.google.com/store/apps/details?id=com.orangebd.amarshorkar">
+                                <img class="img-fluid apps_logo"  src="https://www.mygov.bd/img/home/google-play-logo.png" alt="মাইগভ মোবাইল অ্যাপ ডাউনলোড করতে এখানে ক্লিক করুন">
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_2 col-sm-6 col-md-2 col-lg-3 col-xl-2 mx-auto mb-3 mb-md-0 text-center">
+                        <!-- Links -->
+                        <h6 tabindex="0" class="text-uppercase fw-bold mb-4 footer_title">
+                            বিবিধ
+                        </h6>
+                        <p>
+                            <a href="https://www.mygov.bd/application-latest-status" class="text-reset fw-normal">আবেদনের সর্বশেষ অবস্থা</a>
+                        </p>
+                        <p>
+                            <a href="https://www.mygov.bd/about" class="text-reset fw-normal">মাইগভ সম্পর্কে</a>
+                        </p>
+                        
+                        <p>
+                            <a href="https://www.mygov.bd/frequently-asked-question" class="text-reset fw-normal"> সচরাচর জিজ্ঞাসা</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_3 col-sm-6 col-md-3 col-lg-3 col-xl-2 mx-auto mb-3 mb-md-0 text-center">
+                        <!-- Links -->
+                        <h6 tabindex="0" class="text-uppercase fw-bold mb-4 footer_title">
+                            আইনগত
+                        </h6>
+                        <p>
+                            <a href="https://www.mygov.bd/conditions" class="text-reset fw-normal">পরিষেবার শর্তাবলী</a>
+                        </p>
+                        <p>
+                            <a href="https://www.mygov.bd/help-desk" class="text-reset fw-normal">হেল্প ডেস্ক</a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="footer_col footer_col_4 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3 mb-md-0 text-center">
+                        <!-- Links -->
+                        <h6 tabindex="0" class="text-uppercase fw-bold mb-4 footer_title">
+                            যোগাযোগ
+                        </h6>
+                            <p tabindex="0" class="fw-normal"><a href="mailto:support@mygov.bd" class="text-reset fw-normal">support@mygov.bd</a></p>
+                        
+                            <p tabindex="0" class="fw-normal">09666727278</p>
+                            <p tabindex="0" class="fw-normal"></p>
+                            <div class="row d-flex justify-content-center">
+                            
+                            <div class="col-2"><a class="row" href="#" target="_blank" tabindex="0" aria-label="facebook page"><i class="uil uil-facebook fa-2x"></i></a></div>
+                            
+                            <div class="col-2"><a class="row" href="#" target="_blank" tabindex="0" aria-label="linkedin profile"><i class="uil uil-linkedin fa-2x"></i></a></div>
+                            
+                            <div class="col-2"><a class="row" href="#" target="_blank" tabindex="0" aria-label="youtube channel"><i class="uil uil-youtube fa-2x"></i></a></div>
+                            
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <div class="container border-top">
+            <div class="row py-3">
+                <div class="footer_col footer_col_5 col-md-4 col-sm-6 text-start mb-3 mb-md-0">
+                    <a href="#" target="_blank" class="col d-flex h-100 text-sm-center d-flex justify-content-center">
+                        <div class="col-md-5 col-sm-5 justify-content-center align-self-center">
+                            পরিকল্পনা ও বাস্তবায়নে
+                        </div>
+                        <div class="col-md-7 col-sm-7">
+                            <img class="img-fluid" src="#" alt="" />
+                        </div>
+                    </a>
+                </div>
+                <div tabindex="0" class="footer_col footer_col_6 col-md-4 col-sm-6 mb-3 mb-md-0 text-center h-100">
+                    কপিরাইট &copy; 
+                        ২০২২
+                        সর্বস্বত্ব সংরক্ষিত</br>
+                    গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+                </div>
+                <div class="footer_col footer_col_7 col-md-4 col-sm-12 text-sm-center">
+                    <a href="#" target="_blank" class="row d-flex h-100 justify-content-center justify-content-lg-end justify-content-md-end justify-content-sm-center align-self-sm-center justify-content-xs-center">
+                        <div class="col-6 col-md-5 col-sm-4 d-flex justify-content-center align-self-center justify-content-sm-center align-self-sm-center text-sm-center pe-0">
+                            কারিগরি সহযোগিতায়
+                        </div>
+                        <div class="col-4 col-md-4 col-sm-2 d-flex justify-content-center align-self-center ps-0">
+                            <img class="img-fluid"  src="https://www.mygov.bd/img/orangebd-logo.png" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </footer>  
+    <!-- footer section end -->
+
+    <!-- Bootstrap js link -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Swiperjs JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- jQuary link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- JavaScript link -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
